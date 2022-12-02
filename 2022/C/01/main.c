@@ -19,7 +19,7 @@ qsort_fn(const void *a, const void *b)
 }
 
 // Function that's used as for_each_line_fn, read the well-written documentaton
-// inside of for_each_line.h and the test file tfor_each_line.c.
+// inside of for_each_line.h and the test file tfor_each_line.c found in the library.
 void
 add_line(char const *line, size_t len)
 {

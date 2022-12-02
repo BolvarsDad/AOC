@@ -37,6 +37,7 @@ main(int argc, char **argv)
     while (for_each_line(buffer, 4096, file, add_line))
             ++totals_len;
 
+    // bugfix
     ++totals_len;
 
     qsort(totals, totals_len, sizeof(long), qsort_fn);

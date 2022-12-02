@@ -11,6 +11,7 @@
 long totals[500];
 size_t totals_len = 0;
 
+// Descending order.
 int
 qsort_fn(const void *a, const void *b)
 {

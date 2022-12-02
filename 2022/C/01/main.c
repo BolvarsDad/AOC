@@ -28,7 +28,8 @@ add_line(char const *line, size_t len)
     totals[totals_len] += value;
 }
 
-int main(void)
+int
+main(int argc, char **argv)
 {
     char buffer[4096];
     FILE *file = fopen("input.txt", "r");

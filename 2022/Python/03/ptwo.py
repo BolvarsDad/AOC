@@ -12,7 +12,7 @@ with open("input.txt") as file:
 
         priorities = [alphabet.index((elf1 & elf2 & elf3).pop()) + 1]
 
-        for thing in priorities:
-            bsum += thing
+        for typeval in priorities:
+            bsum += typeval
 
     print(bsum)

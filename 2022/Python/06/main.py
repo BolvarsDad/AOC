@@ -1,5 +1,5 @@
 def find_distinct(message, n):
-    for i in range(len(message)-n-1):
+    for i in range(len(message)-n):
         if len(set(message[i:i+n])) == n:
             return i+n
     return None
